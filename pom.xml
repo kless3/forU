@@ -28,11 +28,11 @@
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-jar-plugin -->
-<!--    <dependency>-->
-<!--      <groupId>org.apache.maven.plugins</groupId>-->
-<!--      <artifactId>maven-jar-plugin</artifactId>-->
-<!--      <version>3.1.1</version>-->
-<!--    </dependency>-->
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-jar-plugin</artifactId>
+      <version>3.1.1</version>
+    </dependency>
 
 
     <dependency>
@@ -44,19 +44,19 @@
   </dependencies>
   <build>
     <finalName>forU</finalName>
-<!--    <plugins>-->
-<!--      <plugin>-->
-<!--        <groupId>org.apache.maven.plugins</groupId>-->
-<!--        <artifactId>maven-jar-plugin</artifactId>-->
-<!--        <version>3.1.1</version>-->
-<!--        <configuration>-->
-<!--          <archive>-->
-<!--            <manifest>-->
-<!--              <mainClass>Main</mainClass>-->
-<!--            </manifest>-->
-<!--          </archive>-->
-<!--        </configuration>-->
-<!--      </plugin>-->
-<!--    </plugins>-->
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.1.1</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <mainClass>com.kless.forU.Main</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
+    </plugins>
   </build>
 </project>
