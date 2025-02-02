@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @SpringBootApplication
 @Controller
-public class Application {
+public class Main {
 
     @GetMapping("/")
     public String getMainPage(){
@@ -16,6 +16,6 @@ public class Application {
 
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(Main.class, args);
     }
 }
